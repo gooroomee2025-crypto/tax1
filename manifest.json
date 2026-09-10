@@ -1,0 +1,13 @@
+{
+  "name": "세법 OX 퀴즈",
+  "short_name": "세법OX",
+  "description": "2027 오정화 세법: 세법1 기준 OX 퀴즈 학습 앱",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#F1F0F5",
+  "theme_color": "#3DAE96",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
