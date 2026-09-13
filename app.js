@@ -601,7 +601,8 @@ document.getElementById('reset-wrongnote').addEventListener('click', async () =>
   alert('오답노트 기록이 초기화되었습니다.');
 });
 
-document.getElementById('setup-sync').addEventListener('click', setupSync);
+const setupSyncBtn = document.getElementById('setup-sync');
+if(setupSyncBtn) setupSyncBtn.addEventListener('click', setupSync);
 
 window.addEventListener('DOMContentLoaded', async () => {
   initFirebaseIfConfigured();
